@@ -95,9 +95,9 @@ async def bot_start(event):
             buttons = [
                 (
                     Button.inline("🔰 Rules 🔰", data="rules"),
-                    Button.inline("❤ Deploy ❤", data="depy"),
+                    Button.url("❤ Deploy ❤", "https://t.me/raj_piro"),
                 ),
-                (Button.url("🔱 Support 🔱", "https://t.me/LegendBot_OP"),),
+                (Button.url("🔱 Channel", "https://t.me/gamertechwithfun"),),
             ]
             start_msg = customstrmsg.format(
                 mention=mention,
@@ -117,9 +117,9 @@ async def bot_start(event):
             buttons = [
                 (
                     Button.inline("🔰 Rules 🔰", data="rules"),
-                    Button.inline("❤ Deploy ❤", data="depy"),
+                    Button.url("❤ Deploy ❤", "https://t.me/raj_piro"),
                 ),
-                (Button.url("🔱 Support 🔱", "https://t.me/LegendBot_OP"),),
+                (Button.url("🔱 Channel", "https://t.me/gamertechwithfun"),),
             ]
     else:
         start_msg = f"Hey {mention} I am your {my_mention}'s assistant bot.\nI Am Here To Help U \n\nPowered By [LegendBot](https://t.me/LegendBot_OP)"
@@ -211,11 +211,11 @@ async def help(event):
             link_preview=False,
             buttons=[
                 [
-                    Button.url("Tutorial", "https://youtu.be/9CtOErUFmrQ"),
+                    Button.url("Tutorial", "ee"),
                 ],
                 [
                     Button.url(
-                        "Github Repo ❓", "https://github.com/LEGEND-AI/LEGENDBOT"
+                        "Github Repo ❓", "bhag"
                     ),
                 ],
             ],
